@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+set -e
+
+modules=(
+  brew
+  node
+  ruby
+  ssh
+)
+
+for module in "${modules[@]}"
+do
+  bash "./modules/$module.bash"
+done
+
