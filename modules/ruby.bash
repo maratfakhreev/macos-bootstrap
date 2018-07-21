@@ -10,7 +10,7 @@ info_echo "Set default gems list"
 echo "bundler" >> "$(brew --prefix rbenv)/default-gems"
 echo "tmuxinator" >> "$(brew --prefix rbenv)/default-gems"
 
-ruby_version="2.3.1"
+ruby_version="2.3.0"
 
 if test -z "$(rbenv versions --bare|grep $ruby_version)"; then
   info_echo "Install Ruby $ruby_version"

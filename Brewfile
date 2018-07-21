@@ -1,55 +1,55 @@
 # Essential terminal utilities
 tap "homebrew/services"
+
+brew "autojump"
+brew "curl", args: ["with-openssl"]
 brew "git"
-brew "postgresql"
-brew "redis"
+brew "heroku-toolbelt"
 brew "imagemagick"
 brew "mongodb"
-brew "qt"
-brew "watch"
-brew "ssh-copy-id"
-brew "heroku-toolbelt"
-brew "autojump"
 brew "nano"
-brew "curl", args: ["with-openssl"]
+brew "postgresql"
+brew "qt"
+brew "redis"
+brew "ssh-copy-id"
+brew "watch"
 
 # Essential Mac applications
 tap "caskroom/cask"
 tap "caskroom/versions"
 
 # Browsers
-cask "google-chrome"
 cask "firefox"
-cask "opera"
+cask "google-chrome"
 
 # Tools
-cask "the-unarchiver"
-cask "spectacle"
 cask "1password"
+cask "cleanmymac"
 cask "coconutbattery"
+cask "encryptme"
+cask "scroll-reverser"
+cask "spectacle"
+cask "the-unarchiver"
 cask "vlc"
 cask "zeplin"
-cask "cleanmymac"
-cask "scroll-reverser"
 
 # Messengers
-cask "telegram"
-cask "slack"
-cask "skype"
 cask "discord"
+cask "skype"
+cask "slack"
+cask "telegram"
 
 # Development
-cask "java"
-cask "visual-studio-code"
-cask "postman"
-cask "dash"
 cask "filezilla"
+cask "java"
+cask "postman"
+cask "visual-studio-code"
 
 # Node
 brew "nvm"
 brew "yarn"
 
 # Ruby
+brew "rbenv-default-gems"
 brew "rbenv"
 brew "ruby-build"
-brew "rbenv-default-gems"
