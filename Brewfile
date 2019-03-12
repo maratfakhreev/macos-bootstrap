@@ -4,7 +4,6 @@ tap "homebrew/services"
 brew "autojump"
 brew "curl", args: ["with-openssl"]
 brew "git"
-brew "heroku-toolbelt"
 brew "imagemagick"
 brew "mongodb"
 brew "nano"
@@ -13,6 +12,16 @@ brew "qt"
 brew "redis"
 brew "ssh-copy-id"
 brew "watch"
+brew "wine"
+
+# Node
+brew "nvm"
+brew "yarn"
+
+# Ruby
+brew "rbenv-default-gems"
+brew "rbenv"
+brew "ruby-build"
 
 # Essential Mac applications
 tap "caskroom/cask"
@@ -34,22 +43,10 @@ cask "vlc"
 cask "zeplin"
 
 # Messengers
-cask "discord"
-cask "skype"
 cask "slack"
 cask "telegram"
 
 # Development
 cask "filezilla"
-cask "java"
 cask "postman"
 cask "visual-studio-code"
-
-# Node
-brew "nvm"
-brew "yarn"
-
-# Ruby
-brew "rbenv-default-gems"
-brew "rbenv"
-brew "ruby-build"
