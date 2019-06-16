@@ -2,7 +2,7 @@
 tap "homebrew/services"
 
 brew "autojump"
-brew "curl", args: ["with-openssl"]
+brew "curl"
 brew "git"
 brew "imagemagick"
 brew "mongodb"
@@ -44,9 +44,7 @@ cask "zeplin"
 
 # Messengers
 cask "slack"
-cask "telegram"
 
 # Development
-cask "filezilla"
 cask "postman"
 cask "visual-studio-code"

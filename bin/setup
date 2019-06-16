@@ -11,6 +11,6 @@ modules=(
 
 for module in "${modules[@]}"
 do
-  bash "./modules/$module.bash"
+  bash "$HOME/macos-bootstrap/modules/$module.bash"
 done
 

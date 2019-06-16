@@ -19,4 +19,3 @@ brew link --force curl
 
 info_echo "Remove outdated versions"
 brew cleanup
-brew cask cleanup
