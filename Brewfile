@@ -27,24 +27,28 @@ brew "ruby-build"
 tap "caskroom/cask"
 tap "caskroom/versions"
 
-# Browsers
-cask "firefox"
-cask "google-chrome"
-
 # Tools
 cask "1password"
 cask "cleanmymac"
 cask "coconutbattery"
 cask "encryptme"
-cask "scroll-reverser"
 cask "spectacle"
 cask "the-unarchiver"
 cask "vlc"
-cask "zeplin"
+
+# Browsers
+cask "firefox"
+cask "google-chrome"
 
 # Messengers
 cask "slack"
+cask "zoomus"
+
+# Design
+cask "figma"
+cask "sketchbook"
 
 # Development
 cask "postman"
+cask "iterm2"
 cask "visual-studio-code"
