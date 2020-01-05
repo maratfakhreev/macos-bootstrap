@@ -1,6 +1,7 @@
 # Essential terminal utilities
 tap "homebrew/services"
 
+brew "ansible"
 brew "autojump"
 brew "curl"
 brew "git"
@@ -12,7 +13,6 @@ brew "qt"
 brew "redis"
 brew "ssh-copy-id"
 brew "watch"
-brew "wine"
 
 # Node
 brew "nvm"
@@ -22,6 +22,12 @@ brew "yarn"
 brew "rbenv-default-gems"
 brew "rbenv"
 brew "ruby-build"
+
+# Go
+brew "go"
+
+# Python
+brew "python"
 
 # Essential Mac applications
 tap "caskroom/cask"
@@ -37,7 +43,6 @@ cask "the-unarchiver"
 cask "vlc"
 
 # Browsers
-cask "firefox"
 cask "google-chrome"
 
 # Messengers
