@@ -6,7 +6,6 @@ brew "autojump"
 brew "curl"
 brew "git"
 brew "imagemagick"
-brew "mongodb"
 brew "nano"
 brew "postgresql"
 brew "qt"
@@ -30,9 +29,6 @@ brew "go"
 brew "python"
 
 # Essential Mac applications
-tap "caskroom/cask"
-tap "caskroom/versions"
-
 # Tools
 cask "1password"
 cask "cleanmymac"
