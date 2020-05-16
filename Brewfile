@@ -3,7 +3,6 @@ tap "homebrew/services"
 
 brew "ansible"
 brew "autojump"
-brew "docker"
 brew "git"
 brew "imagemagick"
 brew "nano"
@@ -38,8 +37,8 @@ cask "the-unarchiver"
 cask "vlc"
 
 # Browsers
-cask "google-chrome"
 cask "chromedriver"
+cask "google-chrome"
 
 # Messengers
 cask "slack"
@@ -50,6 +49,7 @@ cask "figma"
 cask "sketchbook"
 
 # Development
-cask "postman"
+cask "docker"
 cask "iterm2"
+cask "postman"
 cask "visual-studio-code"
