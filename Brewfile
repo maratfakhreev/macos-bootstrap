@@ -3,13 +3,12 @@ tap "homebrew/services"
 
 brew "ansible"
 brew "autojump"
-brew "curl"
+brew "docker"
 brew "git"
 brew "imagemagick"
 brew "nano"
-brew "postgresql"
-brew "qt"
-brew "redis"
+brew "postgresql", restart_service: true
+brew "redis", restart_service: true
 brew "ssh-copy-id"
 brew "watch"
 
@@ -40,6 +39,7 @@ cask "vlc"
 
 # Browsers
 cask "google-chrome"
+cask "chromedriver"
 
 # Messengers
 cask "slack"
