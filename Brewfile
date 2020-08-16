@@ -27,12 +27,13 @@ brew "go"
 brew "python"
 
 # Essential Mac applications
-# Tools
+# Applications
 cask "1password"
 cask "cleanmymac"
 cask "coconutbattery"
 cask "encryptme"
 cask "spectacle"
+cask "spotify"
 cask "the-unarchiver"
 cask "vlc"
 
