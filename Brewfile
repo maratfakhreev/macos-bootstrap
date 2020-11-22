@@ -1,5 +1,6 @@
 # Essential terminal utilities
 tap "homebrew/services"
+tap "homebrew/cask"
 
 brew "ansible"
 brew "autojump"
@@ -42,6 +43,7 @@ cask "chromedriver"
 cask "google-chrome"
 
 # Messengers
+cask "telegram"
 cask "slack"
 cask "zoomus"
 
