@@ -6,10 +6,6 @@ source "$macos_bootstrap/modules/functions.bash"
 info_echo "Enable rbenv alias"
 eval "$(rbenv init -)"
 
-info_echo "Set default gems list"
-echo "bundler" >> "$(brew --prefix rbenv)/default-gems"
-echo "tmuxinator" >> "$(brew --prefix rbenv)/default-gems"
-
 ruby_version="2.6.6"
 
 if test -z "$(rbenv versions --bare|grep $ruby_version)"; then

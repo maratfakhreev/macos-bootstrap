@@ -17,9 +17,7 @@ brew "nvm"
 brew "yarn"
 
 # Ruby
-brew "rbenv-default-gems"
 brew "rbenv"
-brew "ruby-build"
 
 # Go
 brew "go"
