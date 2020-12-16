@@ -5,6 +5,7 @@ tap "homebrew/cask"
 brew "ansible"
 brew "autojump"
 brew "git"
+brew "htop"
 brew "imagemagick"
 brew "nano"
 brew "postgresql", restart_service: true
