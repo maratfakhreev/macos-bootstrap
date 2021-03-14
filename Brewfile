@@ -45,7 +45,7 @@ cask "google-chrome"
 # Messengers
 cask "telegram"
 cask "slack"
-cask "zoomus"
+cask "zoom"
 
 # Design
 cask "figma"
