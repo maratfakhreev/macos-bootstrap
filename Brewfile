@@ -31,8 +31,8 @@ brew "python"
 # Applications
 cask "1password"
 cask "cleanmymac"
+cask "cloudflare-warp"
 cask "coconutbattery"
-cask "encryptme"
 cask "spectacle"
 cask "spotify"
 cask "the-unarchiver"
@@ -43,8 +43,8 @@ cask "chromedriver"
 cask "google-chrome"
 
 # Messengers
-cask "telegram"
 cask "slack"
+cask "telegram"
 cask "zoom"
 
 # Design
