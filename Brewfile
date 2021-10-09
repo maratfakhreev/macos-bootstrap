@@ -10,7 +10,7 @@ brew "http-server"
 brew "imagemagick"
 brew "nano"
 brew "openssl"
-brew "postgresql", restart_service: true
+brew "postgresql@13", restart_service: true
 brew "redis", restart_service: true
 brew "ssh-copy-id"
 brew "watch"
