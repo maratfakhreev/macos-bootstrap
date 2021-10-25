@@ -3,6 +3,7 @@
 set -e
 
 modules=(
+  macos
   brew
   node
   ruby
