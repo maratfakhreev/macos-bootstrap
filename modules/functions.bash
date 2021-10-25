@@ -1,6 +1,7 @@
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
-export RBENV_ROOT=/usr/local/var/rbenv
-export NVM_DIR=/usr/local/var/nvm
+# Not used on apple silicon based computers. Default path uses for it is /opt/homebrew
+# export RBENV_ROOT=/usr/local/var/rbenv
+# export NVM_DIR=/usr/local/var/nvm
 
 red=$(tput setaf 1)
 green=$(tput setaf 2)
