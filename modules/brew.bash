@@ -4,7 +4,7 @@ macos_bootstrap="$(cd "$(dirname "$0")/.." && pwd -P)"
 source "$macos_bootstrap/modules/functions.bash"
 
 info_echo "Install Homebrew"
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 info_echo "Install Brew formalue"
 brew tap "Homebrew/bundle" 2> /dev/null
