@@ -50,7 +50,6 @@ cask "zoom"
 
 # Design
 cask "figma"
-cask "sketchbook"
 
 # Development
 cask "docker"
