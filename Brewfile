@@ -41,6 +41,7 @@ cask "vlc"
 
 # Browsers
 cask "chromedriver"
+cask "firefox"
 cask "google-chrome"
 
 # Messengers
