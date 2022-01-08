@@ -27,6 +27,10 @@ brew "go"
 # Python
 brew "python"
 
+# iOS
+brew "cocoapods"
+brew "watchman"
+
 # Essential Mac applications
 # Applications
 cask "1password"
