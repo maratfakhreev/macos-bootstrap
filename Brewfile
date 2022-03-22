@@ -35,8 +35,8 @@ brew "watchman"
 # Applications
 cask "1password"
 cask "cleanmymac"
-cask "cloudflare-warp"
 cask "coconutbattery"
+cask "outline"
 cask "rectangle"
 cask "spotify"
 cask "the-unarchiver"
@@ -44,7 +44,6 @@ cask "vlc"
 
 # Browsers
 cask "chromedriver"
-cask "firefox"
 cask "google-chrome"
 
 # Messengers
