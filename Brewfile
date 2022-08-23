@@ -35,7 +35,6 @@ brew "watchman"
 # Applications
 cask "1password"
 cask "cleanmymac"
-cask "coconutbattery"
 cask "outline"
 cask "rectangle"
 cask "spotify"
