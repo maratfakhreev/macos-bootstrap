@@ -12,7 +12,6 @@ brew "openssl"
 brew "postgresql@13", restart_service: true
 brew "redis", restart_service: true
 brew "ssh-copy-id"
-brew "watch"
 
 # Node
 brew "nvm"
