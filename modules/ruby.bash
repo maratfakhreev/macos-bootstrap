@@ -20,5 +20,5 @@ rbenv shell $ruby_version
 info_echo "Update to latest Rubygems version"
 gem update --system --no-document
 
-info_echo "Installing Bundler to install project-specific Ruby gems"
+info_echo "Install Bundler to handle project-specific Ruby gems"
 gem install bundler --no-document

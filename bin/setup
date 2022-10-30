@@ -4,6 +4,7 @@ set -e
 
 modules=(
   macos
+  zsh
   brew
   node
   ruby
