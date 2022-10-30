@@ -8,6 +8,7 @@ modules=(
   brew
   node
   ruby
+  git
   ssh
 )
 
