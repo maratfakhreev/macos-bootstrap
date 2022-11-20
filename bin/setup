@@ -4,12 +4,12 @@ set -e
 
 modules=(
   macos
-  zsh
   brew
   node
   ruby
   git
   ssh
+  dotfiles
 )
 
 for module in "${modules[@]}"

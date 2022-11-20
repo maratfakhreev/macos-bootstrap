@@ -53,5 +53,5 @@ cask "figma"
 
 # Development
 cask "docker"
-cask "iterm2"
 cask "visual-studio-code"
+cask "warp"
