@@ -36,6 +36,7 @@ cask "1password"
 cask "cleanmymac"
 cask "rectangle"
 cask "spotify"
+cask "steam"
 cask "the-unarchiver"
 cask "vlc"
 
@@ -44,6 +45,7 @@ cask "chromedriver"
 cask "google-chrome"
 
 # Messengers
+cask "discord"
 cask "slack"
 cask "telegram"
 cask "zoom"
@@ -52,6 +54,7 @@ cask "zoom"
 cask "figma"
 
 # Development
+cask "boop"
 cask "docker"
 cask "visual-studio-code"
 cask "warp"
