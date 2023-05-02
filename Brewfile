@@ -36,7 +36,6 @@ cask "1password"
 cask "cleanmymac"
 cask "rectangle"
 cask "spotify"
-cask "steam"
 cask "the-unarchiver"
 cask "vlc"
 
@@ -58,3 +57,7 @@ cask "boop"
 cask "docker"
 cask "visual-studio-code"
 cask "warp"
+
+# Gaming
+cask "steam"
+cask "epic-games"
