@@ -34,6 +34,7 @@ brew "watchman"
 # Applications
 cask "1password"
 cask "cleanmymac"
+cask "linearmouse"
 cask "rectangle"
 cask "spotify"
 cask "the-unarchiver"
@@ -59,5 +60,5 @@ cask "visual-studio-code"
 cask "warp"
 
 # Gaming
-cask "steam"
 cask "epic-games"
+cask "steam"
