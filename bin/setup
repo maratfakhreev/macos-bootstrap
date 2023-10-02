@@ -16,4 +16,3 @@ for module in "${modules[@]}"
 do
   bash "$HOME/macos-bootstrap/modules/$module.bash"
 done
-
