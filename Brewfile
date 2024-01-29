@@ -40,7 +40,6 @@ cask "the-unarchiver"
 cask "vlc"
 
 # Browsers
-cask "chromedriver"
 cask "google-chrome"
 
 # Messengers
