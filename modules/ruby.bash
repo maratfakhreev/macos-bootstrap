@@ -6,7 +6,7 @@ source "$macos_bootstrap/modules/functions.bash"
 info_echo "Enable rbenv alias"
 eval "$(rbenv init -)"
 
-ruby_version="3.2.1"
+ruby_version="3.2.3"
 
 if test -z "$(rbenv versions --bare|grep $ruby_version)"; then
   info_echo "Install Ruby $ruby_version"
