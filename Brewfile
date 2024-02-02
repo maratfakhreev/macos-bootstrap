@@ -9,9 +9,11 @@ brew "htop"
 brew "imagemagick"
 brew "nano"
 brew "openssl"
+brew "overmind"
 brew "postgresql@13", restart_service: true
 brew "redis", restart_service: true
 brew "ssh-copy-id"
+brew "tmux"
 
 # Node
 brew "nvm"
@@ -34,6 +36,7 @@ brew "watchman"
 # Applications
 cask "1password"
 cask "cleanmymac"
+cask "fluor"
 cask "rectangle"
 cask "spotify"
 cask "the-unarchiver"
