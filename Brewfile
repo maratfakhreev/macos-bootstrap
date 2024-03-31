@@ -47,8 +47,10 @@ cask "google-chrome"
 
 # Messengers
 cask "discord"
+cask "messenger"
 cask "slack"
 cask "telegram"
+cask "whatsapp"
 cask "zoom"
 
 # Design
