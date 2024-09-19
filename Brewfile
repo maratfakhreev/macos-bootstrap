@@ -34,10 +34,8 @@ brew "watchman"
 
 # Essential Mac applications
 # Applications
-cask "1password"
 cask "cleanmymac"
 cask "fluor"
-cask "rectangle"
 cask "spotify"
 cask "the-unarchiver"
 cask "vlc"
