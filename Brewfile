@@ -1,6 +1,5 @@
 # Essential terminal utilities
 tap "homebrew/services"
-tap "homebrew/cask"
 
 brew "ansible"
 brew "autojump"
@@ -34,10 +33,10 @@ brew "watchman"
 
 # Essential Mac applications
 # Applications
+cask "chatgpt"
 cask "cleanmymac"
 cask "fluor"
 cask "spotify"
-cask "the-unarchiver"
 cask "vlc"
 
 # Browsers
@@ -56,6 +55,7 @@ cask "figma"
 
 # Development
 cask "boop"
+cask "cyberduck"
 cask "docker"
 cask "visual-studio-code"
 cask "warp"
