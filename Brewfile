@@ -34,7 +34,6 @@ brew "watchman"
 # Essential Mac applications
 # Applications
 cask "chatgpt"
-cask "cleanmymac"
 cask "fluor"
 cask "spotify"
 cask "vlc"
