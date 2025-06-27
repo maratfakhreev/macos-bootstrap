@@ -10,9 +10,9 @@ brew "nano"
 brew "openssl"
 brew "overmind"
 brew "postgresql@13", restart_service: true
+brew "putty"
 brew "redis", restart_service: true
 brew "ssh-copy-id"
-brew "tmux"
 
 # Node
 brew "nvm"
@@ -54,11 +54,10 @@ cask "figma"
 
 # Development
 cask "boop"
+cask "cursor"
 cask "cyberduck"
 cask "docker"
-cask "visual-studio-code"
 cask "warp"
 
 # Gaming
-cask "epic-games"
 cask "steam"
