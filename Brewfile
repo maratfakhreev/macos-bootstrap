@@ -7,6 +7,7 @@ brew "git"
 brew "htop"
 brew "imagemagick"
 brew "nano"
+brew "ollama"
 brew "openssl"
 brew "overmind"
 brew "postgresql@13", restart_service: true
@@ -36,6 +37,7 @@ brew "watchman"
 cask "chatgpt"
 cask "fluor"
 cask "spotify"
+cask "transmission"
 cask "vlc"
 
 # Browsers
