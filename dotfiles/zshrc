@@ -106,6 +106,7 @@ alias gts='git tag -s'
 
 # Postgres 13
 export PATH="/opt/homebrew/opt/postgresql@13/bin:$PATH"
+export PGGSSENCMODE="disable"
 
 # Python
 export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES

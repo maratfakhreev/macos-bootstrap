@@ -1,6 +1,4 @@
-# Essential terminal utilities
-tap "homebrew/services"
-
+# Essential utilities
 brew "ansible"
 brew "autojump"
 brew "git"
