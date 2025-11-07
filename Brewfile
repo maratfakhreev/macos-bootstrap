@@ -33,10 +33,10 @@ brew "watchman"
 # Essential Mac applications
 # Applications
 cask "chatgpt"
+cask "elmedia-player"
 cask "fluor"
 cask "spotify"
 cask "transmission"
-cask "vlc"
 
 # Browsers
 cask "google-chrome"
