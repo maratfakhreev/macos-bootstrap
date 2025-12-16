@@ -34,7 +34,7 @@ brew "watchman"
 # Applications
 cask "chatgpt"
 cask "elmedia-player"
-cask "fluor"
+cask "karabiner-elements"
 cask "spotify"
 cask "transmission"
 
@@ -43,7 +43,6 @@ cask "google-chrome"
 
 # Messengers
 cask "discord"
-cask "messenger"
 cask "slack"
 cask "telegram"
 cask "whatsapp"
