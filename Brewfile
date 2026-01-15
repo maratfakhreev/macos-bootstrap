@@ -36,6 +36,7 @@ brew "watchman"
 cask "chatgpt"
 cask "elmedia-player"
 cask "karabiner-elements"
+cask "obsidian"
 cask "spotify"
 cask "transmission"
 
@@ -56,7 +57,7 @@ cask "figma"
 cask "boop"
 cask "cursor"
 cask "cyberduck"
-cask "docker"
+cask "docker-desktop"
 cask "warp"
 
 # Gaming
