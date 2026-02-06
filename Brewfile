@@ -34,14 +34,13 @@ brew "watchman"
 # Essential Mac applications
 # Applications
 cask "chatgpt"
+cask "claude"
 cask "elmedia-player"
+cask "google-chrome"
 cask "karabiner-elements"
 cask "obsidian"
 cask "spotify"
 cask "transmission"
-
-# Browsers
-cask "google-chrome"
 
 # Messengers
 cask "discord"
@@ -55,6 +54,7 @@ cask "figma"
 
 # Development
 cask "boop"
+cask "claude-code"
 cask "cursor"
 cask "cyberduck"
 cask "docker-desktop"
