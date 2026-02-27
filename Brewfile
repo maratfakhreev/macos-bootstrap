@@ -1,6 +1,7 @@
 # Essential utilities
 brew "ansible"
 brew "autojump"
+brew "gh"
 brew "git"
 brew "htop"
 brew "imagemagick"
