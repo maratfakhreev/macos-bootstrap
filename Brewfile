@@ -1,13 +1,13 @@
 # Essential utilities
 brew "ansible"
 brew "autojump"
+brew "ffmpeg"
 brew "gh"
 brew "git"
 brew "htop"
 brew "imagemagick"
 brew "mole"
 brew "nano"
-brew "ollama"
 brew "openssl"
 brew "overmind"
 brew "postgresql@13", restart_service: true
@@ -36,12 +36,12 @@ brew "watchman"
 # Applications
 cask "chatgpt"
 cask "claude"
-cask "elmedia-player"
 cask "google-chrome"
 cask "karabiner-elements"
 cask "obsidian"
 cask "spotify"
 cask "transmission"
+cask "vlc"
 
 # Messengers
 cask "discord"
@@ -59,6 +59,7 @@ cask "claude-code"
 cask "cursor"
 cask "cyberduck"
 cask "docker-desktop"
+cask "lm-studio"
 cask "warp"
 
 # Gaming
