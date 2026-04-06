@@ -1,6 +1,7 @@
 # Essential utilities
 brew "ansible"
 brew "autojump"
+brew "e2fsprogs"
 brew "ffmpeg"
 brew "gh"
 brew "git"
@@ -11,7 +12,6 @@ brew "nano"
 brew "openssl"
 brew "overmind"
 brew "postgresql@13", restart_service: true
-brew "putty"
 brew "redis", restart_service: true
 brew "ssh-copy-id"
 
