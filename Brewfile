@@ -11,7 +11,7 @@ brew "mole"
 brew "nano"
 brew "openssl"
 brew "overmind"
-brew "postgresql@13", restart_service: true
+brew "postgresql@18", restart_service: true
 brew "redis", restart_service: true
 brew "ssh-copy-id"
 
