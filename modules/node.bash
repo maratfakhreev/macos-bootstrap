@@ -9,5 +9,8 @@ nvm install node
 nvm use node
 nvm alias default node
 
+info_echo "Enable corepack"
+corepack enable
+
 export npm_config_global=true
 export npm_config_loglevel=silent

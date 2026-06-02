@@ -17,7 +17,6 @@ brew "ssh-copy-id"
 
 # Node
 brew "nvm"
-brew "yarn"
 
 # Ruby
 brew "rbenv"
