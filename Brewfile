@@ -60,6 +60,7 @@ cask "cyberduck"
 cask "docker-desktop"
 cask "lm-studio"
 cask "warp"
+cask "zed"
 
 # Gaming
 cask "steam"
