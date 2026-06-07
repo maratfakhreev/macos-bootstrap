@@ -40,6 +40,7 @@ cask "obsidian"
 cask "spotify"
 cask "transmission"
 cask "vlc"
+cask "yandex-music"
 
 # Messengers
 cask "discord"
