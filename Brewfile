@@ -14,6 +14,7 @@ brew "overmind"
 brew "postgresql@18", restart_service: true
 brew "redis", restart_service: true
 brew "ssh-copy-id"
+brew "tailscale"
 
 # Node
 brew "nvm"
@@ -30,10 +31,12 @@ brew "python"
 # Essential Mac applications
 # Applications
 cask "chatgpt"
+cask "claude"
 cask "google-chrome"
 cask "karabiner-elements"
 cask "obsidian"
 cask "spotify"
+cask "tailscale-app"
 cask "transmission"
 cask "vlc"
 cask "yandex-music"
@@ -51,8 +54,6 @@ cask "figma"
 # Development
 cask "boop"
 cask "claude-code"
-cask "claude"
-cask "codex-app"
 cask "cursor"
 cask "cyberduck"
 cask "docker-desktop"
