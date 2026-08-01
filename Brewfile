@@ -45,8 +45,6 @@ cask "yandex-music"
 cask "discord"
 cask "slack"
 cask "telegram"
-cask "whatsapp"
-cask "zoom"
 
 # Design
 cask "figma"
