@@ -50,7 +50,6 @@ cask "telegram"
 cask "figma"
 
 # Development
-cask "boop"
 cask "claude-code"
 cask "cursor"
 cask "cyberduck"
