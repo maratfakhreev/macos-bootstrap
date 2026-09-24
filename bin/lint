@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+
+set -eo pipefail
+
+macos_bootstrap="$(cd "$(dirname "$0")/.." && pwd -P)"
+cd "$macos_bootstrap"
+
+for tool in shfmt shellcheck; do
+  if ! command -v "$tool" >/dev/null 2>&1; then
+    echo "$tool is not installed. Run: brew bundle --file=\"$macos_bootstrap/Brewfile\"" >&2
+    exit 1
+  fi
+done
+
+files=(
+  bin/setup
+  bin/lint
+  .githooks/pre-commit
+  modules/*.bash
+  backups/*.bash
+)
+
+if [[ "$1" == "--fix" ]]; then
+  shfmt -w "${files[@]}"
+else
+  shfmt -d "${files[@]}"
+fi
+
+shellcheck "${files[@]}"

@@ -14,7 +14,6 @@ modules=(
   dotfiles
 )
 
-for module in "${modules[@]}"
-do
+for module in "${modules[@]}"; do
   bash "$macos_bootstrap/modules/$module.bash"
 done

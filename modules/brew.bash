@@ -23,7 +23,7 @@ if [[ ! -f "$zprofile" ]] || ! grep -Fqs 'brew shellenv' "$zprofile"; then
   {
     echo
     echo "eval \"\$($brew_bin shellenv)\""
-  } >> "$zprofile"
+  } >>"$zprofile"
 fi
 
 info_echo "Install Brew formulae"

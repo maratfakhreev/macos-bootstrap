@@ -13,6 +13,8 @@ brew "openssl"
 brew "overmind"
 brew "postgresql@18", restart_service: true
 brew "redis", restart_service: true
+brew "shellcheck"
+brew "shfmt"
 brew "tailscale"
 
 # Node

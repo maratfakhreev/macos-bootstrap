@@ -18,7 +18,7 @@ load_homebrew() {
   fi
 }
 
-load_homebrew()
+load_homebrew
 
 if [[ -t 1 ]] && command -v tput >/dev/null 2>&1 && tput setaf 1 >/dev/null 2>&1; then
   red=$(tput setaf 1)

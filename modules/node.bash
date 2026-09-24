@@ -16,6 +16,7 @@ fi
 
 # nvm.sh is not guaranteed to be `set -e` safe
 set +e
+# shellcheck source=/dev/null
 source "$nvm_sh"
 set -e
 
