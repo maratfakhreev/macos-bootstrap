@@ -1,6 +1,5 @@
 # Essential utilities
 brew "ansible"
-brew "autojump"
 brew "e2fsprogs"
 brew "ffmpeg"
 brew "gh"
@@ -15,7 +14,7 @@ brew "postgresql@18", restart_service: true
 brew "redis", restart_service: true
 brew "shellcheck"
 brew "shfmt"
-brew "tailscale"
+brew "zoxide"
 
 # Node
 brew "nvm"

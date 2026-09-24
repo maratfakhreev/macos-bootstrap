@@ -1,3 +1,8 @@
+# Homebrew (non-login interactive shells skip ~/.zprofile)
+if [[ -z "${HOMEBREW_PREFIX:-}" && -f ~/.zprofile ]]; then
+  source ~/.zprofile
+fi
+
 # Aliases
 alias ll='ls -alF'
 alias ~='cd ~'
@@ -121,13 +126,6 @@ if command -v zoxide >/dev/null 2>&1; then
   eval "$(zoxide init zsh)"
 fi
 
-# Homebrew (non-login interactive shells skip ~/.zprofile)
-if [[ -x /opt/homebrew/bin/brew ]]; then
-  eval "$(/opt/homebrew/bin/brew shellenv)"
-elif [[ -x /usr/local/bin/brew ]]; then
-  eval "$(/usr/local/bin/brew shellenv)"
-fi
-
 # Python
 export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
 
@@ -136,8 +134,9 @@ if command -v rbenv >/dev/null 2>&1; then
   eval "$(rbenv init -)"
 fi
 
-if command -v brew >/dev/null 2>&1; then
-  export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl)"
+# PostgreSQL (postgresql@18 is keg-only, not symlinked into Homebrew's bin)
+if [[ -n "${HOMEBREW_PREFIX:-}" ]]; then
+  export PATH="$HOMEBREW_PREFIX/opt/postgresql@18/bin:$PATH"
 fi
 
 # Node
@@ -172,8 +171,5 @@ fi
 fpath=($HOME/.docker/completions $fpath)
 autoload -Uz compinit
 compinit
-
-# LM Studio CLI
-export PATH="$PATH:$HOME/.lmstudio/bin"
 
 export PATH="$HOME/.local/bin:$PATH"

@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
 
-set -eo pipefail
-
-macos_bootstrap="$(cd "$(dirname "$0")/.." && pwd -P)"
-source "$macos_bootstrap/modules/functions.bash"
+# shellcheck source=functions.bash
+source "$(dirname "${BASH_SOURCE[0]}")/functions.bash"
 
 export NVM_DIR="$HOME/.nvm"
 mkdir -p "$NVM_DIR"

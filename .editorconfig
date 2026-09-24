@@ -8,12 +8,7 @@ trim_trailing_whitespace = true
 indent_style = space
 indent_size = 2
 
-[*.bash]
-shell_variant = bash
-switch_case_indent = true
-binary_next_line = true
-
-[{bin/*,.githooks/*}]
+[{*.bash,bin/*,.githooks/*}]
 shell_variant = bash
 switch_case_indent = true
 binary_next_line = true

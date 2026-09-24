@@ -1,11 +1,23 @@
 #!/usr/bin/env bash
 
-macos_bootstrap="$(cd "$(dirname "$0")/.." && pwd -P)"
-source "$macos_bootstrap/modules/functions.bash"
+# shellcheck source=functions.bash
+source "$(dirname "${BASH_SOURCE[0]}")/functions.bash"
 
-info_echo "Checking for SSH key, generating one if it doesn't exist"
-[[ -f ~/.ssh/id_rsa.pub ]] || ssh-keygen -t rsa
+ssh_key="$HOME/.ssh/id_ed25519"
 
-info_echo "Copying public key to clipboard. Paste it into your Github account"
-[[ -f ~/.ssh/id_rsa.pub ]] && pbcopy <~/.ssh/id_rsa.pub
-open https://github.com/account/ssh
+if [[ ! -f "$ssh_key.pub" ]]; then
+  info_echo "Generate SSH key"
+  mkdir -p "$HOME/.ssh"
+  chmod 700 "$HOME/.ssh"
+  ssh-keygen -t ed25519 -f "$ssh_key"
+fi
+
+if ! gh auth status >/dev/null 2>&1; then
+  info_echo "Log in to GitHub"
+  gh auth login --git-protocol ssh --web
+fi
+
+if ! gh ssh-key list | grep -Fq "$(awk '{print $2}' "$ssh_key.pub")"; then
+  info_echo "Add SSH key to GitHub"
+  gh ssh-key add "$ssh_key.pub" --title "$(scutil --get ComputerName)"
+fi

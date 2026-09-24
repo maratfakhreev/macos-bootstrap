@@ -1,9 +1,7 @@
 set -eo pipefail
 
-# Not used on apple silicon based computers.
-# Default path is using for it is /opt/homebrew/opt/rbenv, /opt/homebrew/opt/nvm e.t.c
-# export RBENV_ROOT=/usr/local/var/rbenv
-# export NVM_DIR=/usr/local/var/nvm
+# shellcheck disable=SC2034
+macos_bootstrap="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd -P)"
 
 load_homebrew() {
   local brew_bin=""
