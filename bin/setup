@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
-set -e
+set -eo pipefail
+
+macos_bootstrap="$(cd "$(dirname "$0")/.." && pwd -P)"
 
 modules=(
   macos
@@ -14,5 +16,5 @@ modules=(
 
 for module in "${modules[@]}"
 do
-  bash "$HOME/macos-bootstrap/modules/$module.bash"
+  bash "$macos_bootstrap/modules/$module.bash"
 done
