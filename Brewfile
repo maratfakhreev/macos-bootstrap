@@ -13,7 +13,6 @@ brew "openssl"
 brew "overmind"
 brew "postgresql@18", restart_service: true
 brew "redis", restart_service: true
-brew "ssh-copy-id"
 brew "tailscale"
 
 # Node
@@ -35,6 +34,7 @@ cask "claude"
 cask "google-chrome"
 cask "karabiner-elements"
 cask "obsidian"
+cask "ollama-app"
 cask "spotify"
 cask "tailscale-app"
 cask "transmission"
@@ -54,7 +54,6 @@ cask "claude-code"
 cask "cursor"
 cask "cyberduck"
 cask "docker-desktop"
-cask "lm-studio"
 cask "warp"
 cask "zed"
 
