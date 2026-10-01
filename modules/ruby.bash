@@ -6,7 +6,7 @@ source "$(dirname "${BASH_SOURCE[0]}")/functions.bash"
 info_echo "Enable rbenv"
 eval "$(rbenv init -)"
 
-ruby_version="4.0.2"
+ruby_version="4.0.7"
 
 if ! rbenv versions --bare | grep -qx "$ruby_version"; then
   info_echo "Install Ruby $ruby_version"
