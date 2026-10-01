@@ -2,6 +2,7 @@
 brew "ansible"
 brew "e2fsprogs"
 brew "ffmpeg"
+brew "fzf"
 brew "gh"
 brew "git"
 brew "htop"
